@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rayid KP - Bio</title>
   <style>
+    /* Base styles */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: url('https://github.com/rayidkp/bio/blob/main/Wall281.png') no-repeat center center fixed;
+      background: url('https://raw.githubusercontent.com/rayidkp/bio/main/Wall281.png') no-repeat center center fixed;
       background-size: cover;
       color: white;
       display: flex;
@@ -19,30 +20,45 @@
       text-align: center;
     }
 
+    /* Container styles */
     .bio-container {
-      background-color: rgba(0, 0, 0, 0.7);
-      padding: 40px;
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 2em;
       border-radius: 10px;
-      width: 80%;
+      width: 90%;
       max-width: 600px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     }
 
+    /* Heading and paragraph styles */
     h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
     }
 
     p {
-      font-size: 1.3em;
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin: 0.5em 0;
     }
 
+    /* Smaller text block */
     .info {
-      margin-top: 20px;
-      font-size: 1.2em;
+      font-size: 1em;
+      margin-top: 1.5em;
     }
 
-    .emoji {
-      font-size: 1.5em;
+    /* Responsive design for smaller screens */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+      p, .info {
+        font-size: 1em;
+      }
+      .bio-container {
+        padding: 1.5em;
+      }
     }
   </style>
 </head>
@@ -50,11 +66,11 @@
 
   <div class="bio-container">
     <h1>Rayid KP</h1>
-    <p>👨‍💻 A passionate Mobile & PC Enthusiast | Tech Innovator 🌟</p>
+    <p>👨‍💻 Passionate Mobile & PC Enthusiast | Tech Innovator 🌟</p>
     <p>📍 Based in Kannur, Kerala</p>
     <div class="info">
-      <p>🔧 Always exploring new ways to push the limits of technology, I thrive on learning and implementing cutting-edge tools and techniques in both the mobile and PC realms. My goal is to contribute to the tech community and constantly improve my skills to stay at the forefront of innovation. 🚀</p>
-      <p>💡 Passionate about sharing knowledge, creating meaningful solutions, and enhancing user experiences through technology. Let's innovate and grow together!</p>
+      <p>🔧 Exploring new ways to push the limits of technology. I thrive on learning and implementing cutting-edge tools and techniques in mobile and PC realms. My goal is to contribute to the tech community and enhance my skills at the forefront of innovation. 🚀</p>
+      <p>💡 Driven to share knowledge, create meaningful solutions, and improve user experiences through technology. Let's innovate and grow together!</p>
     </div>
   </div>
 
