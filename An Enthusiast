@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rayid KP - Bio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('https://www.example.com/your-minimal-background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .bio-container {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 40px;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.3em;
+    }
+
+    .info {
+      margin-top: 20px;
+      font-size: 1.2em;
+    }
+
+    .emoji {
+      font-size: 1.5em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bio-container">
+    <h1>Rayid KP</h1>
+    <p>👨‍💻 A passionate Mobile & PC Enthusiast | Tech Innovator 🌟</p>
+    <p>📍 Based in Kannur, Kerala</p>
+    <div class="info">
+      <p>🔧 Always exploring new ways to push the limits of technology, I thrive on learning and implementing cutting-edge tools and techniques in both the mobile and PC realms. My goal is to contribute to the tech community and constantly improve my skills to stay at the forefront of innovation. 🚀</p>
+      <p>💡 Passionate about sharing knowledge, creating meaningful solutions, and enhancing user experiences through technology. Let's innovate and grow together!</p>
+    </div>
+  </div>
+
+</body>
+</html>
